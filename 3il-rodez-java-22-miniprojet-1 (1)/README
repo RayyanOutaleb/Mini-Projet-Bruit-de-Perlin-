@@ -1,0 +1,16 @@
+Question : pourquoi l'attribut graine est-il en final ?
+
+Graine est déclaré comme final pour que sa valeur ne puisse pas être modifiée.
+Cela permet de garantir la cohérence des calculs et évite les effets secondaires non désirés.
+
+
+Question : quel type utilisez-vous ?
+
+Pour stocker des informations décimales avec une précision suffisante de l'hydrométrie, de température et de l'altitude de la classe Terrain,
+J'utilise le type double pour garantir une précision suffisante.
+
+
+Question : pourquoi sortir, selon vous, ce bout d'algorithme de la classe ?
+
+En isolant cet algorithme dans une classe distincte, on permet au code principal de rester plus simple et plus concentré sur sa propre logique.
+Cela favorise également la réutilisation de l'algorithme dans d'autres contextes sans modifier la classe principale.
